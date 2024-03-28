@@ -133,3 +133,247 @@
           margin-left: 30px;
     }
     
+    .text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px;
+     
+    }
+    .text h4{
+        font-size: 40px;
+    }
+    
+    .text-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+    .text-home a{
+        text-decoration: none;
+        color:rgb(109, 107, 107) ;
+        
+    }
+    .point{
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background-color: rgb(109, 107, 107);
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .text-home :hover{
+        transition: all 0.6s;
+        color:rgb(114, 114, 253);
+    }
+    .cont{
+        color:rgb(109, 107, 107) ;
+        margin-top: 16px;
+        margin-left: -25px;
+    }
+
+
+    .center{
+        width: 84%;
+        height: 720px;
+        
+        margin: 0 auto;
+        box-shadow: 0px 0px 10px rgb(109, 107, 107);
+    }
+
+    .center .left{
+
+    }
+    
+    .center .left h4{
+        font-weight: 550;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+
+    .center .left .left-inpt input{
+        width: 800px;
+        height: 65px;
+        border: 1px solid rgb(155, 154, 154);
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .center .left .mesage input{
+        width: 800px;
+        height: 160px;
+        border: 1px solid rgb(109, 107, 107);
+        margin-left: 30px;
+
+    }
+ 
+  .check{
+    margin-top: 20px;
+    margin-left: 30px;
+
+  }
+
+  .send-msg{
+    margin-top: 50px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(0, 0, 22);
+    margin-left: 30px;
+
+   
+  }
+  .send-msg h6{
+    color: white;
+    padding-left: 18px;
+    padding-top: 7px;
+    width: 150px;
+    height: 40px;
+  }
+ .send-msg h6:hover{
+    background-color: rgb(76, 76, 250);
+    cursor: pointer;
+    transition: all 0.5s;
+ }
+
+
+ .right {
+
+ }
+
+ .right-up img{
+    margin-top: 80px;
+    margin-left: 40px
+ }
+ .right-up a{
+    color: black;
+    text-decoration: none;
+    margin-left: 40px
+ }
+ .right-up :hover{
+    color: rgb(76, 76, 250);
+    transition: all 0.5s;
+ }
+ .right .right-down .icons {
+    margin-left: 50px ;
+    margin-top: 20px;
+ }
+ .right .right-down .icons i{
+    height: 25px;
+    width: 25px;
+    border: 1px solid rgb(150, 150, 150);
+    padding-left: 5px;
+    padding-top: 5px;
+ }
+
+ .right-down .icons :hover{
+    background-color: rgb(65, 65, 248);
+    color: white;
+    transition: all 0.5s;
+ }
+
+ .foot{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(220, 214, 239, 0.81);
+    margin-top: 60px;
+}
+
+.foot .shofy{
+
+    margin-top: 90px;
+
+}
+.foot .shofy span{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.foot .shofy .social-logo {
+   margin-top: 30px;
+}
+.foot .shofy .social-logo i{
+   width: 30px;
+   height: 30px;
+   
+   background-color: white;
+}
+
+.foot .shofy .social-logo :hover{
+    transition: all 0.4s;
+    color: white;
+    background-color: rgb(139, 126, 252);
+    cursor: pointer;
+
+ 
+ }
+ .foot .two{
+    margin-top: 90px;
+    margin-left: 50px;
+
+ }
+ .two ul{
+
+ }
+
+ .two ul:hover{
+    cursor: pointer;
+    
+ }
+ .two ul li a{
+
+ }
+ .two ul li :hover{
+    color: rgb(139, 126, 252);
+    cursor: pointer;
+}
+ .two li {
+    margin-top: 12px;
+ }
+
+ .foot .three{
+    margin-top: 90px;
+    margin-left: 30px;
+ }
+ .three ul{
+
+}
+
+.three ul:hover{
+   cursor: pointer;
+   
+}
+.three ul li a{
+
+}
+.three ul li a :hover{
+   color: rgb(139, 126, 252);
+}
+.three li {
+   margin-top: 12px;
+}
+
+.four{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.four a{
+    color:rgb(109, 107, 107) ;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.end span{
+    margin-left: 40px;
+}
+.end img{
+    margin-left: 760px;
+}
