@@ -1,0 +1,366 @@
+.nav-up{
+    height: 50px;
+    background-color: white;
+    
+    }
+    .nav-up .nav-up-left{
+        display: flex;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: -20px;
+    }
+    .nav-up .nav-up-left :hover{
+        display: flex;
+        font-size: 15px;
+        color:rgb(114, 114, 253);
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .nav-up .nav-up-left i{
+        color: rgb(114, 114, 253);
+        margin-left: 10px;
+        margin-top: 3.5px;
+    }
+    .nav-up .nav-up-left span{
+        margin-left: 10px;
+    }
+    .nav-up .nav-up-left .line-one{
+        height: 20px;
+        width: 1px;
+        border: 1px solid rgb(164, 160, 160);
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+    
+    .nav-up .nav-up-right{
+        display: flex;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 380px;
+        font-weight: 430;
+    }
+    .nav-up .nav-up-right{
+            cursor: pointer;
+    }
+    
+    .nav-up .nav-up-right .line-two{
+        height: 20px;
+        width: 1px;
+        border: 1px solid rgb(164, 160, 160);
+        margin-top: 3px;
+        margin-left: 10px;
+    }
+    .nav-up .nav-up-right .currency{
+        margin-left: 15px;
+    }
+    .nav-up .nav-up-right .set{
+        margin-left: 15px;
+    }
+    
+    .navbar{
+    width: 100%;
+       height: 70px;
+       border: 1px solid rgb(202, 197, 197);
+       padding: 5px;
+       box-shadow: 2px 4px rgb(202, 197, 197);
+       position: fixed;
+       z-index: 2000;
+       background-color: white;
+    }
+    .navbar .navbar-left {
+        display: flex;
+    }
+    .navbar .navbar-main ul{
+        display: flex;
+        margin-left: 10px;
+        list-style: none;
+    
+        
+    }
+    .navbar .navbar-main ul :hover{
+           cursor: pointer;
+           color:rgb(114, 114, 253);
+           transition: all 0.5s;
+        
+    }
+    .navbar .navbar-main i{
+        margin-top: 7px;
+        font-size: 13px;
+        margin-left: 7px;
+        color:  rgb(109, 107, 107);
+    
+    }
+    .navbar .navbar-main ul li{
+        margin-left: 22px;
+    }
+    .navbar .navbar-main ul li a{
+      text-decoration: none;
+      color: black;
+    }
+    .navbar-right{
+        display: flex;
+    }
+    .navbar-right .icons{
+        display: flex;
+        font-size: 22px;
+    }
+    .navbar-right .icons .arrow {
+        display: flex;
+    }
+    .navbar-right .icons .arrow .icon-up{
+       
+        margin-top: 2px;
+    }
+    .navbar-right .icons .arrow .icon-down{
+        margin-left: -1px;
+        margin-top: 2px;
+    }
+    .navbar-right .icons .basket{
+        margin-left: 13px;
+        margin-top: 2px;
+    }
+    
+    .navbar .navbar-right .search{
+        margin-left: 240px;
+    
+    }
+    .navbar .navbar-right .search input{
+        height: 40px;
+        width: 250px;
+        
+    }
+    .navbar .navbar-right .search input i{
+          margin-left: 30px;
+    }
+
+ #wallpaper{
+    height: 440px;
+    width: 100%;
+ }  
+ #wallpaper .image img{
+    height: 440px;
+    width: 100%;
+ } 
+ #page{
+
+ }
+
+ .page-right{
+    margin-left: 60px;
+    margin-top: 100px;
+ }
+ .page-right .one-foto{
+    
+ }
+ .page-right .one-foto .one-set{
+
+    margin-top: 15px;
+    display: flex;
+}
+.page-right .one-foto .one-set .time i{
+    color: rgba(104, 104, 247, 0.815);
+}
+.page-right .one-foto .one-set .person{
+   margin-left: 40px;
+}
+.page-right .one-foto .one-set .person :hover{
+    cursor: pointer;
+    color: rgba(104, 104, 247, 0.815);
+    transition: 0.4s;
+ }
+.page-right .one-foto .one-set .person i{
+    color: rgba(104, 104, 247, 0.815);
+ }
+.page-right .one-foto .one-set .comment{
+    margin-left: 40px;
+}
+.page-right .one-foto .one-set .comment :hover{
+    cursor: pointer;
+    color: rgba(104, 104, 247, 0.815);
+    transition: 0.4s;
+ }
+.page-right .one-foto .one-set .comment i{
+    color: rgba(104, 104, 247, 0.815);
+}
+.one-foto-txt a{
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    border: 1px solid black;
+}
+.one-foto .one-foto-txt h2 :hover{
+    color: rgba(104, 104, 247, 0.815);
+    cursor: pointer;
+    transition: all 0.5s;
+} 
+.read{
+    height: 40px;
+    width: 140px;
+    border:  1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 20px;
+}
+.read :hover{
+    cursor: pointer;
+    background-color: white;
+}
+ .search input{
+    height: 45px;
+    width: 300px;
+
+ }
+ .about h5{
+    margin-top: 35px;
+ }
+
+ .user-box{
+    height: 65%;
+    width: 300px;
+    border: 1px solid  rgb(181, 177, 177);
+ }
+ .user-box .user-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 30px;
+ }
+ .name a{
+   color: black;
+   z-index: 2000;
+ }
+
+ .text-box {
+    height: 180px;
+    width: 900px;
+    background-color:rgba(40, 120, 232, 0.815) ;
+    margin-top: 50px;
+ }
+ .text-box h4{
+    color: white;
+    padding-top: 50px;
+    padding-left: 40px;
+ }
+ .text-box .down{
+    display: flex;
+ }
+ .text-box .down .line{
+    width: 50px;
+    height: 1px;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+ .name-text{
+    color: white;
+    margin-top: 7px;
+    margin-left: 15px;
+ }
+
+
+
+
+
+
+ .foot{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(220, 214, 239, 0.81);
+    margin-top: 60px;
+}
+
+.foot .shofy{
+
+    margin-top: 90px;
+
+}
+.foot .shofy span{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.foot .shofy .social-logo {
+   margin-top: 30px;
+}
+.foot .shofy .social-logo i{
+   width: 30px;
+   height: 30px;
+   
+   background-color: white;
+}
+
+.foot .shofy .social-logo :hover{
+    transition: all 0.4s;
+    color: white;
+    background-color: rgb(139, 126, 252);
+    cursor: pointer;
+
+ 
+ }
+ .foot .two{
+    margin-top: 90px;
+    margin-left: 50px;
+
+ }
+ .two ul{
+
+ }
+
+ .two ul:hover{
+    cursor: pointer;
+    
+ }
+ .two ul li a{
+
+ }
+ .two ul li :hover{
+    color: rgb(139, 126, 252);
+    cursor: pointer;
+}
+ .two li {
+    margin-top: 12px;
+ }
+
+ .foot .three{
+    margin-top: 90px;
+    margin-left: 30px;
+ }
+ .three ul{
+
+}
+
+.three ul:hover{
+   cursor: pointer;
+   
+}
+.three ul li a{
+
+}
+.three ul li a :hover{
+   color: rgb(139, 126, 252);
+}
+.three li {
+   margin-top: 12px;
+}
+
+.four{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.four a{
+    color:rgb(109, 107, 107) ;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.end span{
+    margin-left: 40px;
+}
+.end img{
+    margin-left: 760px;
+}
