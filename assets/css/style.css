@@ -1,0 +1,431 @@
+.nav-up{
+height: 50px;
+background-color: white;
+
+}
+.nav-up .nav-up-left{
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: -20px;
+}
+.nav-up .nav-up-left :hover{
+    display: flex;
+    font-size: 15px;
+    color:rgb(114, 114, 253);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.nav-up .nav-up-left i{
+    color: rgb(114, 114, 253);
+    margin-left: 10px;
+    margin-top: 3.5px;
+}
+.nav-up .nav-up-left span{
+    margin-left: 10px;
+}
+.nav-up .nav-up-left .line-one{
+    height: 20px;
+    width: 1px;
+    border: 1px solid rgb(164, 160, 160);
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.nav-up .nav-up-right{
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 380px;
+    font-weight: 430;
+}
+.nav-up .nav-up-right{
+        cursor: pointer;
+}
+
+.nav-up .nav-up-right .line-two{
+    height: 20px;
+    width: 1px;
+    border: 1px solid rgb(164, 160, 160);
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.nav-up .nav-up-right .currency{
+    margin-left: 15px;
+}
+.nav-up .nav-up-right .set{
+    margin-left: 15px;
+}
+
+.navbar{
+width: 100%;
+   height: 70px;
+   border: 1px solid rgb(202, 197, 197);
+   padding: 5px;
+   box-shadow: 2px 4px rgb(202, 197, 197);
+   position: fixed;
+   z-index: 2000;
+   background-color: white;
+}
+.navbar .navbar-left {
+    display: flex;
+}
+.navbar .navbar-main ul{
+    display: flex;
+    margin-left: 10px;
+    list-style: none;
+
+    
+}
+.navbar .navbar-main ul :hover{
+       cursor: pointer;
+       color:rgb(114, 114, 253);
+       transition: all 0.5s;
+    
+}
+.navbar .navbar-main i{
+    margin-top: 7px;
+    font-size: 13px;
+    margin-left: 7px;
+    color:  rgb(109, 107, 107);
+
+}
+.navbar .navbar-main ul li{
+    margin-left: 22px;
+}
+.navbar .navbar-main ul li a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-right{
+    display: flex;
+}
+.navbar-right .icons{
+    display: flex;
+    font-size: 22px;
+}
+.navbar-right .icons .arrow {
+    display: flex;
+}
+.navbar-right .icons .arrow .icon-up{
+   
+    margin-top: 2px;
+}
+.navbar-right .icons .arrow .icon-down{
+    margin-left: -1px;
+    margin-top: 2px;
+}
+.navbar-right .icons .basket{
+    margin-left: 13px;
+    margin-top: 2px;
+}
+
+.navbar .navbar-right .search{
+    margin-left: 240px;
+
+}
+.navbar .navbar-right .search input{
+    height: 40px;
+    width: 250px;
+    
+}
+.navbar .navbar-right .search input i{
+      margin-left: 30px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+ 
+}
+.text h4{
+    font-size: 40px;
+}
+
+.text-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.text-home a{
+    text-decoration: none;
+    color:rgb(109, 107, 107) ;
+    
+}
+.text-home :hover{
+    transition: all 0.6s;
+    color:rgb(114, 114, 253);
+}
+.text-account{
+    color:rgb(109, 107, 107) ;
+    margin-top: 16px;
+}
+.box-login{
+    margin: 0 auto;
+    height: 75vh;
+    width: 42%;
+    border: 1px solid rgb(208, 207, 207);
+    box-shadow: 0px 0px 15px rgb(208, 207, 207);
+
+}
+.text-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+  }
+  .text-login h4{
+    font-size: 40px;
+}
+
+.text-account-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.txt-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.text-account-login ul{
+    text-decoration: none;
+    color:rgb(109, 107, 107) ;
+    margin-top: 16px;
+}
+.text-create :hover{
+    transition: all 0.6s;
+    color:rgb(114, 114, 253);
+}
+.text-create{
+    color:rgb(109, 107, 107) ;
+    
+}
+.login-table .product-logo{
+    display: flex;
+}
+.login-table .product-logo .google{
+    margin-top: 30px;
+    margin-left: 80px;
+    border: 1px solid rgb(155, 152, 152) ;
+    height: 50px;
+    width: 230px;
+}
+.login-table .product-logo .google .logo{
+    margin: 11px;
+}
+.login-table .product-logo .google .txt{
+    margin-top: -33px;
+}
+.login-table .product-logo :hover{
+    border: 1px solid black;
+    cursor: pointer;
+    
+
+
+}
+.login-table .product-logo .google :hover{
+    border: none;
+}
+.facebook-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(155, 152, 152) ;
+    height: 50px;
+    width: 95px;
+    padding-left: 33px;
+    padding-top: 8px;
+    color: rgb(0, 115, 255);
+    font-size: 22px;
+}
+.facebook-logo i:hover{
+    border: none;
+}
+.apple-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(155, 152, 152) ;
+    height: 50px;
+    width: 95px;
+    padding-left: 35px;
+    padding-top: 6px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.apple-logo i:hover{
+    border: none;
+}
+
+
+
+
+
+
+.center-txt span{
+   
+    margin-left: 250px;
+}
+
+.box-login .inpt-email{
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+.box-login .inpt-email input{
+    height: 50px;
+    width: 490px;
+}
+.box-login .inpt-password{
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+.box-login .inpt-password input{
+    height: 50px;
+    width: 490px;
+}
+.box-login .forget{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.box-login .forget:hover{
+  cursor: pointer;
+}
+.box-login .forget a{
+    
+    margin-left: 245px;
+}
+
+.box-login .login{
+   height: 50px;
+   width: 490px;
+   border: 1px solid black;
+   margin-left: 60px;
+   margin-top: 30px;
+   background-color: rgb(28, 28, 28);
+   color: white;
+}
+.box-login .login :hover{
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.box-login .login h5{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(220, 214, 239, 0.81);
+    margin-top: 60px;
+}
+
+.foot .shofy{
+
+    margin-top: 90px;
+
+}
+.foot .shofy span{
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+.foot .shofy .social-logo {
+   margin-top: 30px;
+}
+.foot .shofy .social-logo i{
+   width: 30px;
+   height: 30px;
+   
+   background-color: white;
+}
+
+.foot .shofy .social-logo :hover{
+    transition: all 0.4s;
+    color: white;
+    background-color: rgb(139, 126, 252);
+    cursor: pointer;
+
+ 
+ }
+ .foot .two{
+    margin-top: 90px;
+    margin-left: 50px;
+
+ }
+ .two ul{
+
+ }
+
+ .two ul:hover{
+    cursor: pointer;
+    
+ }
+ .two ul li a{
+
+ }
+ .two ul li :hover{
+    color: rgb(139, 126, 252);
+    cursor: pointer;
+}
+ .two li {
+    margin-top: 12px;
+ }
+
+ .foot .three{
+    margin-top: 90px;
+    margin-left: 30px;
+ }
+ .three ul{
+
+}
+
+.three ul:hover{
+   cursor: pointer;
+   
+}
+.three ul li a{
+
+}
+.three ul li a :hover{
+   color: rgb(139, 126, 252);
+}
+.three li {
+   margin-top: 12px;
+}
+
+.four{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.four a{
+    color:rgb(109, 107, 107) ;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.end span{
+    margin-left: 40px;
+}
+.end img{
+    margin-left: 760px;
+}
