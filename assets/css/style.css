@@ -107,10 +107,16 @@ width: 100%;
 .navbar-right .icons .arrow {
     display: flex;
 }
+.navbar-right .icons .arrow :hover{
+    cursor: pointer;
+    color: rgba(104, 104, 247, 0.815);
+}
+
 .navbar-right .icons .arrow .icon-up{
    
     margin-top: 2px;
 }
+
 .navbar-right .icons .arrow .icon-down{
     margin-left: -1px;
     margin-top: 2px;
@@ -118,6 +124,10 @@ width: 100%;
 .navbar-right .icons .basket{
     margin-left: 13px;
     margin-top: 2px;
+}
+.navbar-right .icons .basket :hover{
+    cursor: pointer;
+    color: rgba(104, 104, 247, 0.815);
 }
 
 .navbar .navbar-right .search{

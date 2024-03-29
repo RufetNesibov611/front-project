@@ -99,18 +99,27 @@
     }
     .navbar-right{
         display: flex;
+        margin-left: -100px;
     }
     .navbar-right .icons{
         display: flex;
         font-size: 22px;
     }
+   
+    
     .navbar-right .icons .arrow {
         display: flex;
     }
+    .navbar-right .icons .arrow :hover{
+        cursor: pointer;
+        color: rgba(104, 104, 247, 0.815);
+    }
+
     .navbar-right .icons .arrow .icon-up{
        
         margin-top: 2px;
     }
+
     .navbar-right .icons .arrow .icon-down{
         margin-left: -1px;
         margin-top: 2px;
@@ -119,6 +128,11 @@
         margin-left: 13px;
         margin-top: 2px;
     }
+    .navbar-right .icons .basket :hover{
+        cursor: pointer;
+        color: rgba(104, 104, 247, 0.815);
+    }
+
     
     .navbar .navbar-right .search{
         margin-left: 240px;
@@ -212,13 +226,16 @@
  .search input{
     height: 45px;
     width: 300px;
+    margin-left: 100px;
 
  }
  .about h5{
     margin-top: 35px;
+    margin-left: 100px;
  }
 
  .user-box{
+    margin-left: 100px;
     height: 65%;
     width: 300px;
     border: 1px solid  rgb(181, 177, 177);
@@ -261,7 +278,80 @@
     margin-top: 7px;
     margin-left: 15px;
  }
+ .posts h4{
+    margin-top: -35px;
+    margin-left: 100px;
+ }
+ .posts .post-box{
+    margin-left: 100px;
+    height: 320px;
+    width: 300px;   
+    border: 1px solid rgb(209, 202, 202);
+} 
+.post-box .one{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.post-box .one img{
+    height: 65px;
+    width: 65px;
+}
+.post-box .one .txt-one {
+    margin-left: 10px;
+}
+.post-box .one .txt-one a{
+    text-decoration: none;
+    color: black;
 
+}
+.post-box .one .txt-one .click :hover{
+    color: rgba(104, 104, 247, 0.815) ;
+
+}
+.post-box .line{
+    height: 1px;
+    width: 250px;
+    border: 1px solid rgb(209, 202, 202);
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.category{
+    margin-left: 100px;
+    margin-top: 18px;
+}
+.cat-box{
+    width: 300px;
+    height: 320px;
+    border: 1px solid rgb(209, 202, 202);
+}
+.cat-box ul{
+
+
+}
+.cat-box ul li{
+    margin-top: 25px;
+    
+}
+.cat-box ul li a{
+
+    
+}
+.cat-box ul :hover{
+    color: rgba(104, 104, 247, 0.815) ;;
+    cursor: pointer
+}
+.popular{
+    margin-left: 100px;
+
+}
+.popular .line{
+    height: 1px;
+    width: 250px;
+    border: 1px solid rgb(209, 202, 202);
+    margin-top: 10px;
+    
+}
 
 
 
@@ -271,7 +361,7 @@
     height: 500px;
     width: 100%;
     background-color: rgba(220, 214, 239, 0.81);
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
 .foot .shofy{
@@ -364,3 +454,4 @@
 .end img{
     margin-left: 760px;
 }
+
