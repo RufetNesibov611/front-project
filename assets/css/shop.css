@@ -190,6 +190,101 @@
   #center .menu{
 
   }
+  .menu .left{
+
+  }
+
+  .menu .left h6{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 19px;
+  }
+  .left .ranger.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #2495f7;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  .ranger .txt{
+    margin-top: 10px;
+    margin-left: 1px;
+  }
+  .ranger .txt ul{
+    list-style: none;
+    margin-left: 155px;
+  }
+  .ranger .txt ul :hover{
+     cursor: pointer;
+     color: white;
+     background-color: black;
+     transition: 0.5s;
+
+  }
+  .ranger .txt ul li{
+    background-color: #d8dbd2;
+  }
+  .ranger .txt ul li a{
+    text-decoration: none;
+    border: 1px solid rgb(189, 180, 180);
+    color: black;
+  }
+  .left .product-stat h6{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 19px;
+  }
+  .left .product-stat .line{
+    margin-top: 25px;
+    height: 1px;
+    width: 250px;
+    border: 1px solid rgb(189, 180, 180);
+  }
+  .left .radio-btn{
+    margin-top: 20px;
+  }
+  .left .categ{
+
+  }
+  .left .categ ul :hover{
+    cursor: pointer;
+    color:rgb(114, 114, 253);
+  }
+  .left .categ ul li{
+   margin-top: 15px;
+  }
+  .left .categ ul li a{
+      text-decoration: none;
+      color:rgb(109, 107, 107) ;
+  }
+  .top-rtt .top{
+      display: flex;
+  }
+  .top-rtt .top img{
+    height: 70px;
+    width: 70px;
+    border: 1px solid grey;
+  }
+  .star-icon-two{
+    margin-left: 10px;
+  }
+  .star-icon-two i{
+    color: rgb(250, 182, 9);
+    
+  }
+  
+
   .menu .right{
       
     width: 100%;
