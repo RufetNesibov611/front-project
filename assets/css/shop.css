@@ -326,8 +326,10 @@
     margin-top: 20px;
     border: none;
 }
-.card :hover{
+.card:hover img{
     cursor: pointer;
+    height: 330px;
+    width: 280px;
 }
 .card img{
     width: 250px;
@@ -377,8 +379,10 @@
     margin-left: 115px;
     margin-top: 20px;
 }
-.card-two :hover{
+.card-two:hover img{
     cursor: pointer;
+    height: 330px;
+    width: 280px;
 }
 .card-two img{
     width: 250px;
@@ -422,9 +426,10 @@
     margin-left: 180px;
     margin-top: 20px;
 }
-.card-three :hover{
+.card-three:hover img{
     cursor: pointer;
-    
+    height: 330px;
+    width: 280px;
 }
 .card-three img{
     width: 250px;

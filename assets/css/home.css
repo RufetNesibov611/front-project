@@ -162,4 +162,52 @@
         transition: all 0.4s;
 
     }
+    #sliders{
+        height: 400px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    #circle-card{
+      margin-top: 50px;  
+    }
+    #circle-card .container{
+        display: flex;
+    }
+    #circle-card .card{
+        width: 150px;
+        height: 250px;
+        border: none;
+        margin-left: 90px;
+       
+    }
+    #circle-card .card h5{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    #circle-card .card span{
+        margin-left: 25px;
+        
+    }
+    #circle-card .card h5:hover{
+        cursor: pointer;
+        color:  rgb(10, 107, 235);
+    }
 
+    #circle-card .cards{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+       
+        background-color: rgb(204, 218, 238);
+    }
+    .cards:hover img{
+        height: 110px;
+        width: 110px;
+        cursor: pointer;
+        margin: 15px;
+    }
+    .cards img{
+       margin-top: 18px;
+       margin-left: 32px;
+    }
+    
