@@ -326,12 +326,17 @@
     margin-top: 20px;
     border: none;
 }
+.card :hover{
+    cursor: pointer;
+}
 .card img{
     width: 250px;
     height: 300px;
     background-color: #d8dbd2;
 
 }
+
+
 .card .card-txt .txt-one{
     color: rgb(189, 180, 180) ;
 }
@@ -371,6 +376,9 @@
     width: 250px;
     margin-left: 115px;
     margin-top: 20px;
+}
+.card-two :hover{
+    cursor: pointer;
 }
 .card-two img{
     width: 250px;
@@ -413,6 +421,10 @@
     width: 250px;
     margin-left: 180px;
     margin-top: 20px;
+}
+.card-three :hover{
+    cursor: pointer;
+    
 }
 .card-three img{
     width: 250px;
@@ -511,17 +523,14 @@
 
  }
  .two ul{
-
+   
  }
 
- .two ul:hover{
-    cursor: pointer;
-    
+ 
+ .two ul li a :hover{
+    color: rgb(139, 126, 252);
  }
- .two ul li a{
-
- }
- .two ul li :hover{
+ .two ul li:hover{
     color: rgb(139, 126, 252);
     cursor: pointer;
 }
@@ -544,7 +553,7 @@
 .three ul li a{
 
 }
-.three ul li a :hover{
+.three ul li:hover{
    color: rgb(139, 126, 252);
 }
 .three li {
@@ -560,6 +569,10 @@
     color:rgb(109, 107, 107) ;
     margin-top: 20px;
     text-decoration: none;
+}
+.four a:hover{
+    cursor: pointer;
+    color: rgb(139, 126, 252);
 }
 .end span{
     margin-left: 40px;

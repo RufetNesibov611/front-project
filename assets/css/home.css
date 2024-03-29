@@ -1,0 +1,165 @@
+.nav-up{
+    height: 35px;
+    background-color: black;
+}
+    .nav-up-left{
+        display: flex;
+    }
+    .nav-up-left .icon{
+        color: goldenrod;
+        margin-top: 5px;
+    }
+    .nav-up-left span{
+        color: rgb(202, 199, 199);
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    .nav-up .nav-up-right{
+        display: flex;
+        margin-top: 7px;
+        font-size: 13px;
+        margin-left: 350px;
+        font-weight: 430;
+    }
+    .nav-up .nav-up-right{
+            cursor: pointer;
+    }
+    .nav-up .nav-up-right .lang{
+        color: white;
+    }
+    
+    .nav-up .nav-up-right .currency{
+        margin-left: 25px;
+        color: white;
+    }
+    .nav-up .nav-up-right .set{
+        margin-left: 25px;
+        color: white;
+    }
+    #navbar{
+
+    }
+    #navbar .nav{
+        height: 100px;
+        border: 1px solid rgb(198, 196, 196);
+    }
+    .nav-left{
+        margin-top: 30px;
+    }
+    .nav .search input{
+        width: 480px;
+        height: 45px;
+        border: 1px solid rgb(10, 107, 235);
+
+    }
+    .nav .search{
+        display: flex;
+        margin-top: 20px;
+        
+    }
+    .nav .search .txt{
+        margin-left: -190px;
+        display: flex;
+        
+    }
+    .nav .search .txt span{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .nav .search .txt .chev i{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    
+    .search-icon i{
+        height: 45px;
+        width: 70px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 6px;
+        font-size: 29px;
+        background-color: rgb(10, 107, 235);
+        margin-left: 10px;
+    }
+    .search-icon:hover{
+        cursor: pointer;
+    }
+
+    #navbar-down{
+      
+    }
+
+    .nav-down .all{
+        display: flex;
+        height: 50px;
+        width: 320px;
+        background-color:rgb(10, 107, 235);
+    }
+    .all:hover{
+        background-color: black;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .all i{
+        margin-top: 15px;
+        margin-left: 10px;
+        color: white;
+    }
+    .all span{
+        margin-top: 10px;
+        margin-left: 20px;
+        color: white;
+    }
+    .all .chevron i{
+        margin-top: 15px;
+        margin-left: 140px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .nav-down .pages{
+
+    }
+    .nav-down .pages ul{
+        list-style: none;
+        display: flex;
+        margin-top: 10px;
+    }
+    .nav-down .pages ul li{
+        margin-left: 20px;
+    }
+    .nav-down .pages ul li .chevron{
+        margin-top: 10px;
+      
+    }
+    .nav-down .pages ul li:hover{
+        cursor: pointer;
+        color:  rgb(10, 107, 235);
+        transition: all 0.5s;
+    }
+    .nav-down .pages ul li a{
+        text-decoration: none;
+    }
+    .phone{
+        margin-left: 340px;
+        display: flex;
+    }
+    .phone i{
+        margin-top: 16px;
+        color:  rgb(10, 107, 235);
+    }
+    .phone .phone-txt{
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    .phone .phone-txt .num{
+        display: block;
+        font-size: 16px;
+    }
+    .phone .phone-txt .num:hover{
+        cursor: pointer;
+        color:  rgb(10, 107, 235);
+        transition: all 0.4s;
+
+    }
+
