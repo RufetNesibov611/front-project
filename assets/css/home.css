@@ -298,4 +298,102 @@
         margin-left: 7px;
         
     }
+    .foot{
+        height: 500px;
+        width: 100%;
+        background-color: rgba(220, 214, 239, 0.81);
+        margin-top: 60px;
+    }
+    
+    .foot .shofy{
+    
+        margin-top: 90px;
+    
+    }
+    .foot .shofy span{
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    
+    .foot .shofy .social-logo {
+       margin-top: 30px;
+    }
+    .foot .shofy .social-logo i{
+       width: 30px;
+       height: 30px;
+       padding-left: 10px;
+       background-color: white;
+    }
+    
+    .foot .shofy .social-logo :hover{
+        transition: all 0.4s;
+        color: white;
+        background-color: rgb(139, 126, 252);
+        cursor: pointer;
+    
+     
+     }
+     .foot .two{
+        margin-top: 90px;
+        margin-left: 50px;
+    
+     }
+     .two ul{
+       
+     }
+    
+     
+     .two ul li a :hover{
+        color: rgb(139, 126, 252);
+     }
+     .two ul li:hover{
+        color: rgb(139, 126, 252);
+        cursor: pointer;
+    }
+     .two li {
+        margin-top: 12px;
+     }
+    
+     .foot .three{
+        margin-top: 90px;
+        margin-left: 30px;
+     }
+     .three ul{
+    
+    }
+    
+    .three ul:hover{
+       cursor: pointer;
+       
+    }
+    .three ul li a{
+    
+    }
+    .three ul li:hover{
+       color: rgb(139, 126, 252);
+    }
+    .three li {
+       margin-top: 12px;
+    }
+    
+    .four{
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    
+    .four a{
+        color:rgb(109, 107, 107) ;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    .four a:hover{
+        cursor: pointer;
+        color: rgb(139, 126, 252);
+    }
+    .end span{
+        margin-left: 40px;
+    }
+    .end img{
+        margin-left: 760px;
+    }
     
